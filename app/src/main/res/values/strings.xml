@@ -1,0 +1,182 @@
+<resources>
+
+    <!--Global Start-->
+    <string name="app_name">arPoffeine</string>
+    <string name="app_settings">Settings</string>
+	<!--Global End-->
+
+	<!--Drawer Start-->
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="nav_settings">Settings</string>
+	<string name="nav_help">Help</string>
+	<!--Drawer End-->
+
+	<!--Overflow menu Start-->
+	<string name="menu_blackList_clear">Clear blacklist</string>
+	<string name="menu_saved_clear">Clear saved</string>
+	<string name="menu_reload_saved">Reload saved</string>
+	<string name="menu_clear">Clear list</string>
+	<!--Overflow menu End-->
+
+	<!--WebView menu Start-->
+	<string name="menu_back">Back</string>
+	<string name="menu_reload">Reload</string>
+	<string name="menu_edit_url">Edit URL</string>
+	<string name="menu_exit">Quit</string>
+	<!--WebView menu End-->
+
+    <!--Session popup-menu Start-->
+    <string name="menu_open_normal">Open site</string>
+    <string name="menu_save">Save session</string>
+    <string name="menu_remove">Remove session</string>
+    <string name="menu_black_list">Add domain to blacklist</string>
+    <string name="menu_export">Export</string>
+    <!--Session popup-menu End-->
+
+    <!--Buttons Start-->
+    <string name="btn_ok">OK</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_abort">Abort</string>
+    <string name="btn_stay">Stay</string>
+    <string name="btn_exit">Exit</string>
+	<string name="btn_understand">Understood</string>
+	<!--Buttons End-->
+
+    <!--Session item Start-->
+    <string name="session_item_domain_text">http://www.google.com</string>
+    <string name="session_item_ip">10.2.104.155</string>
+    <string name="session_item_id">1021041555</string>
+    <string name="session_item_url_lbl">URL: </string>
+    <string name="session_item_type_lbl">Type:</string>
+    <string name="session_item_type_generic">Generic</string>
+    <string name="session_item_type_filtered">Filter</string>
+	<!--Session item End-->
+
+    <!--NotificationHelper Start-->
+
+		<!--AlertDialog MSGs Start-->
+		<string name="message_clear_blackList">Are you sure about deleting all hosts from blacklist?</string>
+		<string name="message_clear_savedList">Are you sure about deleting all saved files?</string>
+		<string name="message_clear_list">Are you sure about deleting all sessions?</string>
+		<string name="message_error_su_check">Your device seems not to be rooted..\narPoffeine requires root access to work!</string>
+		<string name="message_ask_stay">Do you really want to quit ?</string>
+		<string name="message_ask_close_webView">Do you want to leave the web-site?</string>
+		<string name="message_ask_url">Enter new URL</string>
+		<!--AlertDialog MSGs End-->
+
+		<!--SnackBar MSGs Start-->
+		<string name="sb_msg_lost_wifi">Wifi connection is changed, stopped!</string>
+		<string name="sb_msg_no_network">There’s no network connection!</string>
+		<string name="sb_msg_no_wifi">There’s no Wi-Fi connection!</string>
+		<string name="sb_msg_saved_reloaded">Saved sessions successfully loaded!</string>
+		<string name="sb_msg_list_cleared">Sessions list cleared!</string>
+		<string name="sb_msg_saved_cleared">Saved cleared!</string>
+		<string name="sb_msg_blackList_cleared">Blacklist cleared!</string>
+		<string name="sb_msg_added_blacklist">Added to blacklist domain</string>
+		<string name="sb_msg_session_saved">Session saved!</string>
+		<string name="sb_msg_session_removed">Session removed!</string>
+		<!--SnackBar MSGs End-->
+
+		<!--SnackBar Actions Start-->
+		<string name="sb_action_reconnect">Reconnect</string>
+		<!--SnackBar Actions End-->
+
+		<!--Toast MSGs Start-->
+		<string name="toast_accept_text">You must accept this disclaimer in order to use this application!</string>
+		<!--Toast MSGs End-->
+
+	<!--NotificationHelper End-->
+
+	<!--Disclaimer Start-->
+	<string name="tv_license">arPoffeine distributes without any warranty!\nUse this software on your own risk.\nThe developer is not responsible for any damages caused by usage of this program.\nThis program is designed for research purposes only, its use may be illegal in some countries, keep that in mind.</string>
+	<string name="cb_accept">I accept these terms</string>
+	<!--Disclaimer End-->
+
+	<!--MainActivity Start-->
+	<string name="notification_title_captured">New session has been captured</string>
+	<string name="notification_text">Tap to open arPoffeine!</string>
+	<string name="tv_not_connected">Not connected</string>
+	<string name="tv_not_spoofing">Not spoofing any IP</string>
+	<!--MainActivity End-->
+
+	<!--NavHeaderMain Start-->
+	<string name="tv_connected_to">Connected to:</string>
+	<string name="tv_connected_network_name">not connected</string>
+	<string name="tv_spoofing_ip">Spoofing IP:</string>
+	<string name="tv_spoofing_ip_value">not connected</string>
+	<string name="tv_no_ssid">Unknown Wi-Fi SSID</string>
+	<!--NavHeaderMain End-->
+
+	<!--Title Start-->
+	<string name="title_listening">Only listening</string>
+	<string name="title_starting">Starting</string>
+	<string name="title_stopping">Stopping</string>
+	<string name="title_working">Working</string>
+	<string name="title_spoofing">Spoofing</string>
+	<string name="title_idle">Idle</string>
+	<string name="subtitle_sessions">Sessions:</string>
+	<!--Title End-->
+
+	<!--ExportHelper Start-->
+	<string name="title_action">Export through..</string>
+	<string name="title_export">Cookies export</string>
+	<!--ExportHelper End-->
+
+	<!--Preferences Start-->
+	<string name="category_title_sessions_capture">Session capture</string>
+	<string name="preference_title_filter">Domain filter</string>
+	<string name="preference_description_filter">Select domains to capture</string>
+	<string name="preference_title_generic">Generic mode</string>
+	<string name="preference_description_generic">Try to capture any sessions, regardless of the filter</string>
+	<string name="category_title_notifications">Notifications</string>
+	<string name="preference_title_vibration">Vibration</string>
+	<string name="preference_title_lights">LED notification</string>
+	<string name="preference_title_sounds">Sound notification</string>
+	<string name="preference_key_generic">generic</string>
+	<string name="preference_key_vibration">vibration</string>
+	<string name="preference_key_sounds">sounds</string>
+	<string name="preference_key_lights">lights</string>
+	<string name="preference_key_filter">filter</string>
+	<!--Preferences End-->
+
+	<!--Help Start-->
+	<string name="help_introduction">Before reading the instructions carefully read the disclaimer, to avoid unnecessary questions.\nThis program is written exclusively to research security vulnerabilities of the WLAN.\n\nFollowing are answers to FAQ:</string>
+	<string name="help_question_1">What does this program do?</string>
+	<string name="help_answer_1">This program steals HTTP sessions in WLAN through ARP-Spoofing and then opens these sessions in the built-in browser.</string>
+
+	<string name="help_question_2">How does this program work?</string>
+	<string name="help_answer_2">The program runs the compiled ARPSpoof libraries and the modified Sniffex code for the WLAN of the libpcap library in separate services that perform all the work.\nThe ARPSpoof library deals with ARP-Spoofing, and Sniffex at this time listens and collects sessions that are redirected to the device.</string>
+
+	<string name="help_question_3">Then what is ARP and ARP-Spoofing?</string>
+	<string name="help_answer_3">Address Resolution Protocol (ARP) is a telecommunications protocol used for resolution of network layer addresses into link layer addresses, a critical function in multiple-access networks.\nARP spoofing is a technique whereby an attacker sends fake (“spoofed”) Address Resolution Protocol (ARP) messages onto a Local Area Network.\nGenerally, the aim is to associate the attacker’s MAC address with the IP address of another host (such as the default gateway), causing any traffic meant for that IP address to be sent to the attacker instead.\nThe attack can only be used on networks that make use of the Address Resolution Protocol (ARP), and is limited to local network segments.</string>
+
+	<string name="help_question_4">Why it’s not always possible to steal sessions from web-sites like Facebook, VK, Youtube?</string>
+	<string name="help_answer_4">Many sites are already protected with SSL, so this program can not bypass it yet.\nHowever, sessions from some of these sites can sometimes be intercepted through other sites that make appropriate queries on other domains.</string>
+
+	<string name="help_question_5">What kind of two modes does the program use?</string>
+	<string name="help_answer_5">The “Filter mode” collects sessions only from those domains that are marked in the filter list, and “Generic mode” collects sessions from any sites.</string>
+
+	<string name="help_question_6">Why sometimes the program may disrupt the work of the router?</string>
+	<string name="help_answer_6">This arises because of ARP-Spoofing, because the attack performs immediately on all connected devices, forcing them to redirect traffic to your device.\nAlso, different routers in different ways update their ARP table, which is why the other devices do not immediately able to connect again to the router after you have turned off the program.</string>
+
+	<string name="help_question_7">Why the program does not catch anything?</string>
+	<string name="help_answer_7">Usually it depends on the following factors:\n- The router has a specific protection, which can not be bypassed with simple ARP-Spoofing.\n- Some devices failed to perform this attack, because of what their traffic is still not redirected to your device.\n\nIn this case, you can only try to stop the program, wait a couple of minutes, until the ARP router table is updated, and press again the start button.</string>
+
+	<string name="help_question_8">Why come across “empty” sessions without accounts?</string>
+	<string name="help_answer_8">There are many sites that do not have a system with users, they have only information content, so the cookie files that they save on your device is only informative.\nSites that work with users usually store identification data in cookie files to recognize the user, but the program not always succeed in capturing a full session.</string>
+
+	<string name="help_question_9">What are the different statuses?</string>
+	<string name="help_answer_9">Status “Idle” means program does not do a thing\;\nStatus “Starting” means that program is about to start\;\nStatus “Stopping” means that program is trying to stop the work\;\nStatus “Only listening” means that program is only listening, but not spoofing, same as not working\;\nStatus “Spoofing” means that program started spoofing the WLAN.</string>
+
+	<string name="help_question_10">How do I know that program works?</string>
+	<string name="help_answer_10">When the program runs, you should see the status “Working”.</string>
+
+	<string name="help_question_11">Why the program might not work on my device?</string>
+	<string name="help_answer_11">The reasons may be different:\n-Your device is not powerful enough, usually you need at least 2 processor cores\n-Libraries could not start on the architecture of your processor\n-There may also be problems with the network, or other problems with your device.</string>
+
+	<string name="help_question_12">Will the work on the program continue?</string>
+	<string name="help_answer_12">Yes, the work will continue in my spare time.</string>
+	<!--Help End-->
+</resources>

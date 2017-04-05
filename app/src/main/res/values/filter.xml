@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_values">
+        <item>amazon</item>
+        <item>facebook</item>
+        <item>flickr</item>
+        <item>gmail</item>
+        <item>google</item>
+        <item>linkedin</item>
+        <item>pikabu</item>
+        <item>reddit</item>
+        <item>steam</item>
+        <item>twitter</item>
+        <item>vk</item>
+        <item>youtube</item>
+    </string-array>
+
+    <string-array name="filter_titles">
+        <item>Amazon</item>
+        <item>Facebook</item>
+        <item>Flickr</item>
+        <item>GMail</item>
+        <item>Google</item>
+        <item>LinkedIn</item>
+        <item>Pikabu</item>
+        <item>Reddit</item>
+        <item>Steam</item>
+        <item>Twitter</item>
+        <item>VK</item>
+        <item>Youtube</item>
+    </string-array>
+
+    <string-array name="filter_default" />
+</resources>

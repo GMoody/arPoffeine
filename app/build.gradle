@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "doc.org.arpoffeine"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+def AAVersion = '4.2.0'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+
+    provided "org.projectlombok:lombok:1.12.6"
+
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    apt "org.androidannotations:ormlite:$AAVersion"
+    apt "org.projectlombok:lombok:1.12.6"
+
+    compile group: 'cz.msebera.android' ,  name: 'httpclient',      version: '4.4.1.2'
+    compile group: 'com.j256.ormlite',     name: 'ormlite-core',    version: '5.0'
+    compile group: 'com.j256.ormlite',     name: 'ormlite-android', version: '5.0'
+
+    compile 'com.android.support:design:25.3.0'
+    compile 'com.android.support:cardview-v7:25.3.0'
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.android.support:recyclerview-v7:25.3.0'
+    compile "org.androidannotations:ormlite-api:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+}

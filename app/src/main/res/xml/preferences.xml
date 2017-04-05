@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/category_title_sessions_capture">
+        <CheckBoxPreference
+            android:key="@string/preference_key_generic"
+            android:defaultValue="true"
+            android:disableDependentsState="true"
+            android:summary="@string/preference_description_generic"
+            android:title="@string/preference_title_generic" />
+
+        <MultiSelectListPreference
+            android:key="@string/preference_key_filter"
+            android:dependency="generic"
+            android:title="@string/preference_title_filter" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_title_notifications">
+        <CheckBoxPreference
+            android:key="@string/preference_key_vibration"
+            android:defaultValue="false"
+            android:icon="@drawable/ic_vibration_black_24dp"
+            android:title="@string/preference_title_vibration" />
+        <CheckBoxPreference
+            android:key="@string/preference_key_sounds"
+            android:icon="@drawable/ic_volume_up_black_24dp"
+            android:title="@string/preference_title_sounds"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="@string/preference_key_lights"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="@string/preference_title_lights"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

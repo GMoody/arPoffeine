@@ -1,0 +1,17 @@
+[
+  { "domain": "amazon"        },
+  { "domain": "apollo"        },
+  { "domain": "facebook"      },
+  { "domain": "flickr"        },
+  { "domain": "gmail"         },
+  { "domain": "google"        },
+  { "domain": "linkedin"      },
+  { "domain": "pikabu"        },
+  { "domain": "reddit"        },
+  { "domain": "steam"         },
+  { "domain": "twitter"       },
+  { "domain": "vk.com"        },
+  { "domain": "youtube"       },
+  { "domain": "ok.ru"         },
+  { "domain": "stackoverflow" }
+]

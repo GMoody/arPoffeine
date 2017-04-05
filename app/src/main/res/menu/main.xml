@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@android:string/search_go"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_reload_saved"
+        android:title="@string/menu_reload_saved"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_blackList"
+        android:title="@string/menu_blackList_clear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_saved"
+        android:title="@string/menu_saved_clear"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_list"
+        android:title="@string/menu_clear"
+        app:showAsAction="never" />
+</menu>
