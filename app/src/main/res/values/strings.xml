@@ -6,8 +6,8 @@
 	<!--Global End-->
 
 	<!--Drawer Start-->
-	<string name="navigation_drawer_open">Open navigation drawer</string>
-	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="navigation_drawer_open"  translatable="false">Open navigation drawer</string>
+	<string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
 	<string name="nav_settings">Settings</string>
 	<string name="nav_help">Help</string>
 	<!--Drawer End-->
@@ -29,7 +29,7 @@
     <!--Session popup-menu Start-->
     <string name="menu_open_normal">Open site</string>
     <string name="menu_save">Save session</string>
-    <string name="menu_remove">Remove session</string>
+    <string name="menu_remove">Remove saved session</string>
     <string name="menu_black_list">Add domain to blacklist</string>
     <string name="menu_export">Export</string>
     <!--Session popup-menu End-->
@@ -45,13 +45,13 @@
 	<!--Buttons End-->
 
     <!--Session item Start-->
-    <string name="session_item_domain_text">http://www.google.com</string>
-    <string name="session_item_ip">10.2.104.155</string>
-    <string name="session_item_id">1021041555</string>
-    <string name="session_item_url_lbl">URL: </string>
+    <string name="session_item_domain_text"   translatable="false">http://www.google.com</string>
+    <string name="session_item_ip" 			  translatable="false">10.2.104.155</string>
+    <string name="session_item_id" 			  translatable="false">1021041555</string>
+    <string name="session_item_url_lbl" 	  translatable="false">URL: </string>
     <string name="session_item_type_lbl">Type:</string>
-    <string name="session_item_type_generic">Generic</string>
-    <string name="session_item_type_filtered">Filter</string>
+    <string name="session_item_type_generic"  translatable="false">Generic</string>
+    <string name="session_item_type_filtered" translatable="false">Filter</string>
 	<!--Session item End-->
 
     <!--NotificationHelper Start-->
@@ -104,24 +104,24 @@
 	<!--NavHeaderMain Start-->
 	<string name="tv_connected_to">Connected to:</string>
 	<string name="tv_connected_network_name">not connected</string>
-	<string name="tv_spoofing_ip">Spoofing IP:</string>
+	<string name="tv_spoofing_ip" translatable="false">Spoofing IP:</string>
 	<string name="tv_spoofing_ip_value">not connected</string>
 	<string name="tv_no_ssid">Unknown Wi-Fi SSID</string>
 	<!--NavHeaderMain End-->
 
 	<!--Title Start-->
-	<string name="title_listening">Only listening</string>
-	<string name="title_starting">Starting</string>
-	<string name="title_stopping">Stopping</string>
-	<string name="title_working">Working</string>
-	<string name="title_spoofing">Spoofing</string>
-	<string name="title_idle">Idle</string>
+	<string name="title_listening" translatable="false">Only listening</string>
+	<string name="title_starting"  translatable="false">Starting</string>
+	<string name="title_stopping"  translatable="false">Stopping</string>
+	<string name="title_working"   translatable="false">Working</string>
+	<string name="title_spoofing"  translatable="false">Spoofing</string>
+	<string name="title_idle" 	   translatable="false">Idle</string>
 	<string name="subtitle_sessions">Sessions:</string>
 	<!--Title End-->
 
 	<!--ExportHelper Start-->
 	<string name="title_action">Export through..</string>
-	<string name="title_export">Cookies export</string>
+	<string name="title_export" translatable="false">Cookies export</string>
 	<!--ExportHelper End-->
 
 	<!--Preferences Start-->
@@ -134,11 +134,11 @@
 	<string name="preference_title_vibration">Vibration</string>
 	<string name="preference_title_lights">LED notification</string>
 	<string name="preference_title_sounds">Sound notification</string>
-	<string name="preference_key_generic">generic</string>
-	<string name="preference_key_vibration">vibration</string>
-	<string name="preference_key_sounds">sounds</string>
-	<string name="preference_key_lights">lights</string>
-	<string name="preference_key_filter">filter</string>
+	<string name="preference_key_generic" 	translatable="false">generic</string>
+	<string name="preference_key_vibration" translatable="false">vibration</string>
+	<string name="preference_key_sounds" 	translatable="false">sounds</string>
+	<string name="preference_key_lights" 	translatable="false">lights</string>
+	<string name="preference_key_filter" 	translatable="false">filter</string>
 	<!--Preferences End-->
 
 	<!--Help Start-->

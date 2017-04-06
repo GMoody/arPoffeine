@@ -113,19 +113,19 @@ public class MainActivity extends AppCompatActivity implements
     @DrawableRes(R.drawable.ic_stop_white_24dp)       protected Drawable mStop;
     @DrawableRes(R.drawable.ic_play_arrow_white_24dp) protected Drawable mPlay;
 
-    @StringRes(R.string.title_idle)                                 protected String mTitleIdle;
+    @StringRes(R.string.title_idle)                   protected String mTitleIdle;
     @StringRes(R.string.tv_no_ssid)                   protected String mNoSsid;
-    @StringRes(R.string.title_working)                              protected String mTitleWorking;
-    @StringRes(R.string.title_spoofing)                             protected String mTitleSpoofing;
-    @StringRes(R.string.sb_msg_no_wifi)         protected String mMsgNoWiFi;
-    @StringRes(R.string.title_starting)                             protected String mTitleStarting;
-    @StringRes(R.string.title_stopping)                             protected String mTitleStopping;
-    @StringRes(R.string.tv_not_spoofing)                  protected String mNotSpoofing;
-    @StringRes(R.string.title_listening)                       protected String mTitleListening;
-    @StringRes(R.string.tv_not_connected)                        protected String mNotConnected;
-    @StringRes(R.string.notification_text)              protected String mNotificationText;
-    @StringRes(R.string.subtitle_sessions)                            protected String mSubtitleSessions;
-    @StringRes(R.string.notification_title_captured)        protected String mNotificationCaptured;
+    @StringRes(R.string.title_working)                protected String mTitleWorking;
+    @StringRes(R.string.title_spoofing)               protected String mTitleSpoofing;
+    @StringRes(R.string.sb_msg_no_wifi)               protected String mMsgNoWiFi;
+    @StringRes(R.string.title_starting)               protected String mTitleStarting;
+    @StringRes(R.string.title_stopping)               protected String mTitleStopping;
+    @StringRes(R.string.tv_not_spoofing)              protected String mNotSpoofing;
+    @StringRes(R.string.title_listening)              protected String mTitleListening;
+    @StringRes(R.string.tv_not_connected)             protected String mNotConnected;
+    @StringRes(R.string.notification_text)            protected String mNotificationText;
+    @StringRes(R.string.subtitle_sessions)            protected String mSubtitleSessions;
+    @StringRes(R.string.notification_title_captured)  protected String mNotificationCaptured;
     // Resources DI end
 
     // Beans DI start
